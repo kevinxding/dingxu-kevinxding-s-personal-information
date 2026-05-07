@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="丁旭，2005.06.26 出生，能源与动力工程学生。个人主页展示学习方向、工程实践与荣誉材料。"
+    />
+    <title>丁旭 | Kevin X. Ding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">DX</span>
+        <span>kevinxding.com</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#profile">简介</a>
+        <a href="#honors">荣誉</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Energy & Power Engineering Student</p>
+          <h1 id="hero-title">丁旭</h1>
+          <p class="hero-lede">
+            2005.06.26 出生，能源与动力工程学生。关注能源系统、节能减排、工程创新与跨学科实践。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#honors">查看荣誉</a>
+            <a class="button secondary" href="mailto:2038765644@qq.com">联系我</a>
+          </div>
+        </div>
+
+        <div class="proof-wall" aria-label="荣誉材料预览">
+          <figure class="proof-tile large">
+            <img
+              src="assets/honors/energy-saving-17-national-third.jpg"
+              alt="第17届节能减排国家级三等奖证书"
+              loading="eager"
+            />
+            <figcaption>第17届节能减排国三</figcaption>
+          </figure>
+          <figure class="proof-tile">
+            <img
+              src="assets/honors/national-innovation-project.png"
+              alt="大学生创新创业训练计划国家级立项材料"
+              loading="lazy"
+            />
+            <figcaption>大创国家立项</figcaption>
+          </figure>
+          <figure class="proof-tile">
+            <img
+              src="assets/honors/iot-creativity-provincial-second.jpg"
+              alt="物联网创造力大赛省级二等奖证书"
+              loading="lazy"
+            />
+            <figcaption>物联网创造力大赛省二</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="profile" class="profile-band" aria-labelledby="profile-title">
+        <div class="section-inner">
+          <div class="section-kicker">Profile</div>
+          <h2 id="profile-title">把工程问题拆开，把结果做出来。</h2>
+          <div class="profile-layout">
+            <p>
+              我是丁旭，能源与动力工程方向学生。当前经历集中在节能减排、创新训练、挑战杯、物联网创造力与国际开放课程学习等实践场景。
+            </p>
+            <dl class="fact-list" aria-label="基本信息">
+              <div>
+                <dt>姓名</dt>
+                <dd>丁旭 / Kevin X. Ding</dd>
+              </div>
+              <div>
+                <dt>生日</dt>
+                <dd>2005.06.26</dd>
+              </div>
+              <div>
+                <dt>方向</dt>
+                <dd>能源与动力工程</dd>
+              </div>
+              <div>
+                <dt>主页</dt>
+                <dd>kevinxding.com</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-band" aria-label="能力标签">
+        <div class="signal">
+          <span>能源系统</span>
+          <span>节能减排</span>
+          <span>工程创新</span>
+          <span>项目申报</span>
+          <span>竞赛实践</span>
+          <span>开放课程</span>
+        </div>
+      </section>
+
+      <section id="honors" class="honors-section" aria-labelledby="honors-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <div>
+              <div class="section-kicker">Honors</div>
+              <h2 id="honors-title">荣誉与材料</h2>
+            </div>
+            <div class="filters" aria-label="荣誉筛选">
+              <button class="filter-button active" type="button" data-filter="all">全部</button>
+              <button class="filter-button" type="button" data-filter="national">国家级</button>
+              <button class="filter-button" type="button" data-filter="provincial">省级</button>
+              <button class="filter-button" type="button" data-filter="international">国际</button>
+            </div>
+          </div>
+          <div class="honor-grid" id="honorGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-band" aria-labelledby="contact-title">
+        <div class="section-inner contact-layout">
+          <div>
+            <div class="section-kicker">Contact</div>
+            <h2 id="contact-title">需要快速了解我，直接打开这个域名。</h2>
+          </div>
+          <div class="contact-card">
+            <p>个人主页：<strong>kevinxding.com</strong></p>
+            <p>邮箱：<a href="mailto:2038765644@qq.com">2038765644@qq.com</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 丁旭</span>
+      <span>Built for Cloudflare Pages</span>
+    </footer>
+
+    <dialog class="preview-dialog" id="previewDialog" aria-labelledby="previewTitle">
+      <div class="dialog-head">
+        <h3 id="previewTitle"></h3>
+        <button class="icon-button" type="button" data-close-preview aria-label="关闭预览">×</button>
+      </div>
+      <img id="previewImage" alt="" />
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
